@@ -14,15 +14,15 @@ cd personal-cv-website
 3. Open the index.html file in your web browser.
 
 # Features
-*Clean and modern design
-*Responsive layout that works on all screen sizes
-*Well-organized HTML and CSS code
+* Clean and modern design
+* Responsive layout that works on all screen sizes
+* Well-organized HTML and CSS code
 
 # Customization
 You can easily customize the website to match your personal style and information. Here are some of the things you can change:
-*Update the personal information in the index.html file.
-*Change the color scheme by modifying the CSS variables in the styles.css file.
-*Replace the profile picture with your own.
+* Update the personal information in the index.html file.
+* Change the color scheme by modifying the CSS variables in the styles.css file.
+* Replace the profile picture with your own.
 
 # Deployment
 You can deploy the website to a web hosting service such as GitHub Pages, Amazon S3, or Heroku. Simply follow the instructions for your chosen hosting service to get your website up and running.
@@ -34,7 +34,7 @@ If you would like to contribute to the development of this project, please fork 
 This project is licensed under the MIT License. Feel free to use and modify the code for your personal or commercial projects.
 
 # Acknowledgments
-*Bootstrap for the responsive design and UI components.
-*Font Awesome for the icons.
+* Bootstrap for the responsive design and UI components.
+* Font Awesome for the icons.
 
 Thank you for checking out my personal CV website! I hope you find it useful.
