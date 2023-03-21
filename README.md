@@ -37,4 +37,4 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 * Bootstrap for the responsive design and UI components.
 * Font Awesome for the icons.
 
-Thank you for checking out my personal CV website! I hope you find it useful.
+Thank you for checking out my personal CV website! I hope you find it useful..
