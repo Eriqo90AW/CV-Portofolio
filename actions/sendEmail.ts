@@ -22,10 +22,12 @@ export const sendEmail = async (formData: FormData) => {
             error: "Invalid message"
         }
     }
+
+    let data;
     try{
-        await resend.emails.send({
-            from: "My Website Contact Form <onboarding@resend.dev>",
-            to: "eriqo.arief@ui.ac.id",
+        data = await resend.emails.send({
+            from: "My Website's Contact Form <onboarding@resend.dev>",
+            to: "eriqo.arief1@gmail.com",
             subject: "New message from contact form",
             reply_to: senderEmail as string,
             react: React.createElement(ContactFormEmail, {
@@ -37,5 +39,9 @@ export const sendEmail = async (formData: FormData) => {
         return {
             error: getErrorMessage(error)
         }
+    }
+
+    return {
+        data,
     }
 };
