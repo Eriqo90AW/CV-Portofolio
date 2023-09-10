@@ -6,6 +6,9 @@ const nextConfig = {
             host: 'iamges.unsplash.com',
         },
     ],
+    experimental: {
+        serverActions: true,
+    },
 }
 
 module.exports = nextConfig
