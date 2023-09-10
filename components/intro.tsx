@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 ">
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]" id="home">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -43,19 +43,25 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl leading-[1.5] sm:text-4xl "
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {`I'm an undergraduate student pursuing a degree in Computer
-            Engineering at the University of Indonesia. My passion lies in web
-            development, and I have gained valuable experience in both front-end
-            and backend technologies. My current focus is on continually
-            expanding my skillset by exploring and mastering exciting new
-            frameworks and technologies. I am dedicated to realizing my full
-            potential and fostering personal growth in the field.`}
-      </motion.p>
+        <span className="font-bold">{`Hello, my name is Eriqo.`}</span>
+        {` I'm a `}
+        <span className="font-bold">{`CompEng Student`}</span>
+        {` with `}
+        <span className="font-bold">{`passion`}</span>
+        {` for `}
+        <span className="italic">{`web development,`}</span>
+        {` I have valuable experience in both   `}
+        <span className="italic">{`front-end`}</span>
+        {` and `}
+        <span className="italic">{`back-end`}</span>
+        {` . My current focus is `}
+        <span className="underline">{`React(Next.js) and Express.js.`}</span>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center fap-2 text-lg px-4 font-medium"

@@ -19,7 +19,7 @@ cd CV-Portofolio
 * Well-organized React and Tailwind CSS code
 
 # Acknowledgments
-* Framer motion for animation.
-* Font Awesome for the icons.
+* Framer motion for the animations.
+* React Icons for the icons.
 
 Thank you for checking out my personal portofolio website! I hope you find it useful..
