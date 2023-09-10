@@ -21,5 +21,8 @@ cd CV-Portofolio
 # Acknowledgments
 * Framer motion for the animations.
 * React Icons for the icons.
+* React Hot Toast for toast.
+* Resend & react-email for handling emails.
+* React vertical timeline for custom timelines.
 
 Thank you for checking out my personal portofolio website! I hope you find it useful..
