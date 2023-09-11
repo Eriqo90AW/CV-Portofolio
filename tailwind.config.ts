@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-
+// E3C16F
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,9 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        basecolor: '#ecf0f3',
-        primary: '#1f2937',
-        secondary: '#5651e5',
+        lightBuble1: '#47E5BC',
+        lightBuble2: '#6CCFF6',
+        darkBuble1: '#594E36',
+        darkBuble2: '#083D77',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
