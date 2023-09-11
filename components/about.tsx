@@ -37,7 +37,7 @@ export default function About() {
         as a software developer.
         <span className="italic">{` When I'm not immersed in coding, `}</span>I
         indulge in my hobbies, such as playing video games, watching Premier
-        League matches, and spending quality time with my friends.
+        League matches, and spending time with my family and friends.
       </p>
     </motion.section>
   );
