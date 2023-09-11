@@ -22,7 +22,7 @@ export default function ContactFormEmail({
 }: ContactFormEmailProps) {
   return <Html>
     <Head />
-    <Preview>New message from your portofolio</Preview>
+    <Preview>New message from your portofolio website</Preview>
     <Tailwind>
         <Body className='bg-gray-100 text-black'>
             <Container>
