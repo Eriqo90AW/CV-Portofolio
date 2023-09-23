@@ -72,22 +72,6 @@ export const projectsData = [
     link: "https://exer.space",
   },
   {
-    title: "ScoreGuessr",
-    description:
-      "I developed an Android app from scratch, including backend. Users can predict the outcomes of selected football matches and earn rewards.",
-    tags: ["Java", "Android Studio", "Node.js", "PostgreSQL"],
-    imageUrl: scoreguessr,
-    link: "https://github.com/Eriqo90AW/ScoreGuessr",
-  },
-  {
-    title: "JSleep",
-    description:
-      "JSleep is an Android app developed as a final project for my OOP class. It functions as a room rental service application. I implemented the backend using Java Spring Boot.",
-    tags: ["Java", "Spring Boot", "Android Studio"],
-    imageUrl: jsleep,
-    link: "https://github.com/Eriqo90AW/JSleep",
-  },
-  {
     title: "Car Go",
     description:
       "CarGo is a web-based car dealership service, which is a final project for my Database Systems class. I developed the full-stack for this web app.",
@@ -102,6 +86,22 @@ export const projectsData = [
     tags: ["Python", "PyQt5", "Pyqtgraph", "Arduino"],
     imageUrl: surfacegatingapp,
     link: "https://github.com/Eriqo90AW/RSCM-App",
+  },
+  {
+    title: "JSleep",
+    description:
+    "JSleep is an Android app developed as a final project for my OOP class. It functions as a room rental service application. I implemented the backend using Java Spring Boot.",
+    tags: ["Java", "Spring Boot", "Android Studio"],
+    imageUrl: jsleep,
+    link: "https://github.com/Eriqo90AW/JSleep",
+  },
+  {
+    title: "ScoreGuessr",
+    description:
+      "I developed an Android app from scratch, including backend. Users can predict the outcomes of selected football matches and earn rewards.",
+    tags: ["Java", "Android Studio", "Node.js", "PostgreSQL"],
+    imageUrl: scoreguessr,
+    link: "https://github.com/Eriqo90AW/ScoreGuessr",
   },
 ] as const;
 
