@@ -54,7 +54,7 @@ export default function Intro() {
       >
         <span className="font-bold">{`Hello, my name is Eriqo.`}</span>
         {` I'm a `}
-        <span className="font-bold">{`CompEng Student`}</span>
+        <span className="font-bold">{`Computer Engineering Student`}</span>
         {` with `}
         <span className="font-bold">{`passion`}</span>
         {` for `}
