@@ -7,6 +7,13 @@ import scoreguessr from "@/public/scoreguessr.png";
 import jsleep from "@/public/jsleep.jpg";
 import cargo from "@/public/cargo.png";
 import surfacegatingapp from "@/public/surfacegatingapp.png";
+import pollpal from "@/public/pollpal.png";
+import karsabuana from "@/public/karsabuana.png";
+
+export const lastModified = {
+    date: "04/02/2025",
+    year: "2025",
+} as const;
 
 export const links = [
   {
@@ -53,16 +60,65 @@ export const experiencesData = [
     date: "2021 - Present",
   },
   {
-    title: "Senior Software Engineer",
+    title: "Research Intern",
+    location: "NTUST Broadband Multimedia Wireless (BMW) Lab | Taipei, Taiwan",
+    description:
+      "Successfully designed and implemented a Man-in-the-Middle (MiTM) attack on 5G fronthaul architecture, utilizing kernel-based tool such as DPDK, and security tools such as Wireshark, and Scapy. Analyzed the results to assess vulnerabilities, providing key insights for improving security protocols in 5G networks.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2024 - Aug 2024",
+  },
+  {
+    title: "IT Infrastructure & Design Intern",
+    location: "PT XL Axiata Tbk. | Jakarta, Indonesia",
+    description:
+      "Collaborated with senior IT professionals to analyze existing infrastructure and propose enhancements, demonstrating strong problem-solving and critical thinking skills in identifying opportunities for optimization. Successfully managed data center cost reduction initiatives and worked with enterprise network devices, such as proxies and firewalls, to improve network security and efficiency.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024 - Jun 2024",
+  },
+  {
+    title: "Laboratory Asisstant",
+    location: " Network Laboratory DTE FTUI |  Depok, Indonesia",
+    description:
+      "Instructed 90+ students pursuing majors related to computer networks, covering subjects like fundamental computer networking,  object-oriented programming, database architecture, and computer network design. Responsible for developing modules for practical sessions in Computer Networking and Object-Oriented Programming classes. Provided support to the lecturer in guiding and evaluating students within the computer engineering major.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024 - Jun 2024",
+  },
+  {
+    title: "Frontend Developer Intern",
+    location:
+      "BRIN - National Research and Innovation Agency |  Tangerang, Indonesia",
+    description:
+      "Worked as a front-end developer, actively contributing to the development of an intuitive admin dashboard for the Charging Station Management System, featuring interactive graphs using the Next.js framework. Responsible for the integration of the Open Charge Point Protocol (OCPP) backend into the frontend application. To ensures a  responsive connection between the charging station infrastructure and the user-facing interface.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024 - Jun 2024",
+  },
+  {
+    title: "Expert Staff of Software",
     location: "Exercise FTUI",
     description:
       "Exercise FTUI is an organization within the Department of Electrical Engineering at FTUI. My role within the organization primarily focuses on handling backend and frontend development, utilizing React, Tailwind, Express.js, and MongoDB.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - present",
+    date: "Feb 2022 - Feb 2024",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Lab Karsa Buana",
+    description:
+      "I developed the backend of a web application for Karsa Buana Lab, creating APIs to automate sample testing workflows, including project initialization and document autofill.",
+    tags: ["Express JS", "Node.js", "MongoDB"],
+    imageUrl: karsabuana,
+    link: "https://github.com/Eriqo90AW/ScoreGuessr",
+  },
+  {
+    title: "PollPal",
+    description:
+      "I developed a blockchain-based e-voting platform with IoT security features, a real-time live polling dashboard, and facial recognition for authentication.",
+    tags: ["Python", "FastAPI", "JavaScript", "Next.js"],
+    imageUrl: pollpal,
+    link: "https://github.com/Eriqo90AW/ScoreGuessr",
+  },
   {
     title: "Exer.Space",
     description:
@@ -90,7 +146,7 @@ export const projectsData = [
   {
     title: "JSleep",
     description:
-    "JSleep is an Android app developed as a final project for my OOP class. It functions as a room rental service application. I implemented the backend using Java Spring Boot.",
+      "JSleep is an Android app developed as a final project for my OOP class. It functions as a room rental service application. I implemented the backend using Java Spring Boot.",
     tags: ["Java", "Spring Boot", "Android Studio"],
     imageUrl: jsleep,
     link: "https://github.com/Eriqo90AW/JSleep",

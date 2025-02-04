@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        lightBuble1: '#47E5BC',
-        lightBuble2: '#6CCFF6',
-        darkBuble1: '#594E36',
+        lightBuble1: '#6D98BA',
+        lightBuble2: '#A0CFD3',
+        darkBuble1: '#D36135',
         darkBuble2: '#083D77',
       },
       backgroundImage: {
