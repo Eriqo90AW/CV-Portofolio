@@ -23,7 +23,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/images/profile.png"
+              src="/images/profile.webp"
               alt="Eriqo's Image"
               width="192"
               height="192"
